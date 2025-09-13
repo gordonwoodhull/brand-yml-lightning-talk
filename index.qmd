@@ -12,6 +12,7 @@ format:
     width: 1600
     height: 900
     margin: 0
+    scrollable: true
 title-slide-attributes:
   data-background-color: white
   data-background-image:  _extensions/positconfslides/assets/backgrounds/toc-light.svg
