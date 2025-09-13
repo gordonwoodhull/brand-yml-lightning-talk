@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html#more-information",
+    "href": "index.html#more-information",
+    "title": "\n\nand dark mode in\n\n",
+    "section": "More Information",
+    "text": "More Information"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "\n\nand dark mode in\n\n",
+    "section": "Links",
+    "text": "Links\n\nbrand.yml\n\nsite\npackages:\n\nr brand.yml\npython brand_yml\n\n\ntheme helpers\n\ndemo\npackages:\n\nquarto-r, released in 1.5.0\nquarto-python, use main branch for now; to be released in 0.2.0 later this year"
+  }
+]
