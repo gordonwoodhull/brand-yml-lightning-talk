@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "",
+    "section": "",
+    "text": "language\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\n\n\n\ndemo\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation"
+  },
+  {
+    "objectID": "links.html#links",
+    "href": "links.html#links",
+    "title": "",
+    "section": "",
+    "text": "language\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\n\n\n\ndemo\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation"
+  },
+  {
+    "objectID": "links.html#footnotes",
+    "href": "links.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nto be released later this year; use main branch from Github↩︎"
+  },
+  {
     "objectID": "index.html#more-information",
     "href": "index.html#more-information",
     "title": "\n\nand dark mode in\n\n",
     "section": "More Information",
-    "text": "More Information\n\n\nGo to the next slide online for links!\nhttps://gordonwoodhull.github.io/brand-yml-lightning-talk/#/links"
+    "text": "More Information\n\n\nSee this talk repo for links!\nhttps://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md"
   },
   {
     "objectID": "index.html#links",
