@@ -1,0 +1,13 @@
+.python-version
+_site/
+.quarto/
+*_files/
+
+*.html
+*.pdf
+
+/.quarto/
+**/*.quarto_ipynb
+!*.part.html
+.DS_Store
+_quarto_internal*

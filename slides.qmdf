@@ -1,0 +1,292 @@
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "none/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](none/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "color/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](color/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "typography1/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](typography1/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "typography2/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](typography2/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "typography3/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](typography3/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "logo/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](logo/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "ecological-balance/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](ecological-balance/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "quantum-linguistics/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](quantum-linguistics/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "climate-insight/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](climate-insight/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "orions-reach/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](orions-reach/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "tidal-equity/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](tidal-equity/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "return/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](return/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "dark-only/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](dark-only/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "light-dark/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](light-dark/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
