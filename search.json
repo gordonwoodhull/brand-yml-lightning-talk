@@ -7,8 +7,8 @@
     "text": "language\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\n\n\n\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation"
   },
   {
-    "objectID": "links.html#and-dark-mode-in-links",
-    "href": "links.html#and-dark-mode-in-links",
+    "objectID": "links.html#links",
+    "href": "links.html#links",
     "title": "",
     "section": "",
     "text": "language\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\n\n\n\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation"
@@ -24,12 +24,12 @@
     "objectID": "index.html#more-information",
     "href": "index.html#more-information",
     "title": "\n\nand dark mode in\n\n",
-    "section": "More Information",
-    "text": "More Information\n\n\nSee this talk repo for links!\nhttps://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md"
+    "section": " and dark mode in : more info",
+    "text": "and dark mode in : more info\n\n\nSee the talk repo for links!\n\n\n\n    \n\nhttps://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md"
   },
   {
-    "objectID": "index.html#and-dark-mode-in-links",
-    "href": "index.html#and-dark-mode-in-links",
+    "objectID": "index.html#links",
+    "href": "index.html#links",
     "title": "\n\nand dark mode in\n\n",
     "section": " and dark mode in  links",
     "text": "and dark mode in  links\nbrand.yml\n\n\n\nlanguage\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\ntheme helpers demo\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation\n\n\n\n\nto be released later this year; use main branch from Github"
