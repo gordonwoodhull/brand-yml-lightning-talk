@@ -34,6 +34,38 @@ demo-style: "border: none;"
 
 {{< include slides.qmdf >}}
 
+---
+
+
+
+:::: {.columns}
+
+::: {.absolute width=1053.5px height=63.8333px left=291px top=681.833px style="z-index: 100;"}
+
+```{.yaml style="border: none; font-size: 90px; color: red" code-line-numbers="false"}
+respect-user-color-scheme: true
+```
+
+:::
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.yaml filename="_brand.yml"}
+{{< include "light-dark/_brand.yml" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](light-dark/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+
 ## <img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width=175> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width=150>: more info{#more-information}
 
 :::: {.columns}
