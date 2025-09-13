@@ -4,13 +4,13 @@
     "href": "index.html#more-information",
     "title": "\n\nand dark mode in\n\n",
     "section": "More Information",
-    "text": "More Information"
+    "text": "More Information\n\n\nGo to the next slide online for links!\nhttps://gordonwoodhull.github.io/brand-yml-lightning-talk/#/links"
   },
   {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "\n\nand dark mode in\n\n",
     "section": "Links",
-    "text": "Links\n\nbrand.yml\n\nsite\npackages:\n\nr brand.yml\npython brand_yml\n\n\ntheme helpers\n\ndemo\npackages:\n\nquarto-r, released in 1.5.0\nquarto-python, use main branch for now; to be released in 0.2.0 later this year"
+    "text": "Links\nbrand.yml\n\n\n\nlanguage\npackage\nrepo\ndocs\n\n\n\n\nR\nbrand.yml\nrepo\ndocs\n\n\nPython\nbrand_yml\nrepo\ndocs\n\n\n\ntheme helpers\ndemo\n\n\n\nlanguage\npackage\nrepo\nrelease\ndocs\n\n\n\n\nR\nquarto-r\nrepo\n1.5.0\ndocs\n\n\nPython\nquarto-python\nrepo\n0.2.01\ndocs\n\n\n\nCell renderings documentation\n\n\n\n\nto be released later this year; use main branch from Github"
   }
 ]
