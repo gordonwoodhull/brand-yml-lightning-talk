@@ -1,0 +1,16 @@
+color:
+  background: '#0f0412'
+  foreground: '#f8f8f8'
+logo:
+  small: moon-face.png
+typography:
+  base:
+    family: Helvetica Neue
+    size: 32px
+  headings:
+    family: American Typewriter
+    color: '#eeeeff'
+  monospace-block:
+    background-color: '#ffffff20'
+  monospace-inline:
+    background-color: '#ffffff20'

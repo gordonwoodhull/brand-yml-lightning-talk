@@ -1,0 +1,74 @@
+color:
+  palette:
+    climate-orange: '#f39f88'
+    deep-orange: '#f29e87'
+    bright-coral: '#f3a088'
+    soft-peach: '#f5a58c'
+    charcoal-black: '#050000'
+    soft-charcoal:  '#05000060'
+    pure-black: '#000000'
+    pure-white: '#ffffff'
+    climate-code: '#22ff2210'
+  foreground: charcoal-black
+  background: climate-orange
+  primary: '#081040'
+  secondary: deep-orange
+  tertiary: soft-peach
+  success: '#2e8b57'
+  info: bright-coral
+  warning: '#fcc865'
+  danger: '#d13030'
+
+typography:
+  fonts:
+    - family: "Roboto"
+      source: google
+      weight: [300, 400, 500, 700]
+      style: [normal, italic]
+    - family: "Oswald"
+      source: google
+      weight: [400, 500, 600]
+      style: [normal]
+    - family: "Inconsolata"
+      source: google
+      weight: [400, 700]
+  
+  base:
+    family: "Roboto"
+    size: 32px
+    weight: 400
+    line-height: 1.6
+  
+  headings:
+    family: "Oswald"
+    weight: 600
+    style: normal
+    color: soft-charcoal
+    line-height: 1.2
+  
+  monospace:
+    family: "Inconsolata"
+    size: "0.9em"
+    weight: 400
+  
+  monospace-inline:
+    family: "Inconsolata"
+    size: "0.95em"
+    weight: 400
+    background-color: climate-code
+    color: charcoal-black
+  
+  monospace-block:
+    family: "Inconsolata"
+    size: "1em"
+    weight: 400
+    background-color: climate-code
+    line-height: 1.5
+  
+  link:
+    weight: 500
+    color: deep-orange
+    decoration: "none"
+
+logo:
+  medium: climate-insight.png

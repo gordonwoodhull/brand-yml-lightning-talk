@@ -1,0 +1,77 @@
+color:
+  palette:
+    light-gray: '#efefef'
+    deep-blue: '#121933'
+    navy-blue: '#121833'
+    midnight-blue: '#121934'
+    soft-gray: '#f8f8f8'
+    orion-green: '#52AC5A'
+    magenta: '#8b38a2'
+    magenta-translucent: '#8b38a250'
+    royal-purple: '#381953'
+    cosmic-black: '#000000'
+  foreground: navy-blue
+  background: light-gray
+  primary: deep-blue
+  secondary: royal-purple
+  tertiary: soft-gray
+  success: '#416e49'
+  info: midnight-blue
+  warning: '#fcc865'
+  danger: '#d13030'
+
+typography:
+  fonts:
+    - family: "Exo 2"
+      source: google
+      weight: [300, 400, 500, 700]
+      style: [normal, italic]
+    - family: "Titillium Web"
+      source: google
+      weight: [300, 400, 600, 700]
+      style: [normal, italic]
+    - family: "JetBrains Mono"
+      source: google
+      weight: [400, 600]
+      style: [normal]
+  
+  base:
+    family: "Titillium Web"
+    size: 32px
+    weight: 400
+    line-height: 1.5
+  
+  headings:
+    family: "Exo 2"
+    weight: 600
+    style: normal
+    color: orion-green
+    line-height: 1.2
+  
+  monospace:
+    family: "JetBrains Mono"
+    size: "0.9em"
+    weight: 400
+  
+  monospace-inline:
+    family: "JetBrains Mono"
+    size: "0.9em"
+    weight: 400
+    color: deep-blue
+    background-color: magenta-translucent
+  
+  monospace-block:
+    family: "JetBrains Mono"
+    size: "0.95em"
+    weight: 400
+    color: light-gray
+    background-color: magenta-translucent
+    line-height: 1.5
+  
+  link:
+    weight: 500
+    color: deep-blue
+    decoration: "none"
+
+logo:
+  medium: orions-reach.png

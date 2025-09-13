@@ -1,0 +1,26 @@
+color:
+  background:
+    light: '#f3f3f8'
+    dark: '#0f0412'
+  foreground:
+    light: '#113322'
+    dark: '#f8f8f8'
+logo:
+  small:
+    light: sun-face.png
+    dark: moon-face.png
+typography:
+  base:
+    family: Helvetica Neue
+    size: 32px
+  headings:
+    family: American Typewriter
+    color:
+      light: '#11226d'
+      dark: '#eeeeff'
+  monospace-inline:
+    background-color:
+      dark: '#ffffff20'
+  monospace-block:
+    background-color:
+      dark: '#ffffff20'

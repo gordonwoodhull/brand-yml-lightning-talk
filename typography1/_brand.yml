@@ -1,0 +1,7 @@
+color:
+  background: '#f3f3f8'
+  foreground: '#113322'
+typography:
+  base:
+    family: Helvetica Neue
+    size: 32px

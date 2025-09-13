@@ -1,0 +1,69 @@
+color:
+  palette:
+    pure-white: '#ffffff'
+    soft-white: '#fefefe'
+    water-white: '#f8fdff'
+    leaf-green: '#a2cc84'
+    leaf-green-translucent: '#a2cc8440'
+    forest-green: '#416e49'
+    aqua-blue: '#62aec6'
+    moss-green: '#548e5b'
+    earth-brown: '#426e4b'
+  foreground: forest-green
+  background: water-white
+  primary: leaf-green
+  secondary: aqua-blue
+  tertiary: moss-green
+  success: forest-green
+  info: aqua-blue
+  warning: '#fcc865'
+  danger: '#d13030'
+
+typography:
+  fonts:
+    - family: "Montserrat"
+      source: google
+      weight: [400, 500, 600, 700]
+      style: [normal, italic]
+    - family: "Merriweather"
+      source: google
+      weight: [300, 400, 700]
+      style: [normal, italic]
+    - family: "Fira Code"
+      source: google
+      weight: [400, 500]
+  
+  base:
+    family: "Merriweather"
+    size: 32px
+    weight: 300
+    line-height: 1.6
+  
+  headings:
+    family: "Montserrat"
+    weight: 600
+    style: normal
+    color: forest-green
+    line-height: 1.2
+  
+  monospace-inline:
+    family: "Fira Code"
+    size: "0.9em"
+    weight: 400
+    background-color: leaf-green-translucent
+  
+  monospace-block:
+    family: "Fira Code"
+    size: "0.95em"
+    weight: 400
+    background-color: leaf-green-translucent
+    line-height: 1.5
+  
+  link:
+    weight: 400
+    color: moss-green
+    decoration: "underline"
+
+logo:
+  medium: ecological-balance.png
+
