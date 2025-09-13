@@ -33,3 +33,20 @@ demo-style: "border: none;"
 
 {{< include slides.qmdf >}}
 
+## More Information
+
+
+
+## Links
+
+* brand.yml
+  * [site](https://posit-dev.github.io/brand-yml/)
+  * packages:
+    * r [brand.yml](https://posit-dev.github.io/brand-yml/pkg/r/)
+    * python [brand_yml](https://posit-dev.github.io/brand-yml/pkg/py/) 
+
+* theme helpers
+  * [demo](https://examples.quarto.pub/lightdark-renderings-examples/altair.html) 
+  * packages:
+    * [quarto-r](https://github.com/quarto-dev/quarto-r), released in 1.5.0
+    * [quarto-python](https://github.com/quarto-dev/quarto-python), use main branch for now; to be released in 0.2.0 later this year
