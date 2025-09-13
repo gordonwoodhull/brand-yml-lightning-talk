@@ -39,16 +39,16 @@ demo-style: "border: none;"
 :::: {.columns}
 
 ::: {.column}
-Go to the next slide online for links!
+See this talk repo for links!
 
-https://gordonwoodhull.github.io/brand-yml-lightning-talk/#/links
+https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md
 
 :::
 
 ::: {.column}
-{{< qrcode width=500 height=500 https://gordonwoodhull.github.io/brand-yml-lightning-talk/#/links >}}
+{{< qrcode width=500 height=500 https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md >}}
 ::: 
 
 ::::
 
-{{< include README.md >}}
+{{< include links.md >}}
