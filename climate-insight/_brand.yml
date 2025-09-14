@@ -67,7 +67,6 @@ typography:
   
   link:
     weight: 500
-    color: deep-orange
     decoration: "none"
 
 logo:

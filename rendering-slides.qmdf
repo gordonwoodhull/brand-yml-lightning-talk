@@ -3,7 +3,7 @@
 ::: {.column width="50%" style="padding-top: 54px"}
 
 ``` {.python filename="matplotlib-renderings.py"}
-{{< include "f097d2e/matplotlib-renderings.py" >}}
+{{< include "a4501b4/matplotlib-renderings.py" >}}
 
 ```
 
@@ -11,7 +11,112 @@
 
 ::: {.column width="50%"}
 
-![](f097d2e/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+![](a4501b4/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.r filename="ggplot2-renderings.R"}
+{{< include "8c310a0/ggplot2-renderings.R" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](8c310a0/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.python filename="plotnine-renderings.py"}
+{{< include "02434c4/plotnine-renderings.py" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](02434c4/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.python filename="altair-renderings.py"}
+{{< include "510db67/altair-renderings.py" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](510db67/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.r filename="plotly-renderings.R"}
+{{< include "273558a/plotly-renderings.R" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](273558a/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.python filename="plotly-renderings.py"}
+{{< include "3ae4195/plotly-renderings.py" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](3ae4195/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
 :::
 
 ::::
