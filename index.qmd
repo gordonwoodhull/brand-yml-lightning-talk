@@ -6,7 +6,7 @@ title: |
   and dark mode in
   :::
   
-  ![](quarto.png){.absolute width=528.667px height=135.645px left=188px top=-170px}
+  ![](quarto-logo-trademark.svg){.absolute width=528.667px height=135.645px left=188px top=-170px}
 format:
   revealjs:
     width: 1600
