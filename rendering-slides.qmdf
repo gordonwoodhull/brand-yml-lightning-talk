@@ -1,0 +1,19 @@
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.python filename="matplotlib-renderings.py"}
+{{< include "f097d2e/matplotlib-renderings.py" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](f097d2e/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+
