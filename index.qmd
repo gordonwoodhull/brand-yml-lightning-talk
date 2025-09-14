@@ -29,8 +29,6 @@ demo-style: "border: none;"
 
 ---
 
-
-
 :::: {.columns}
 
 ::: {.absolute width=1053.5px height=63.8333px left=291px top=681.833px style="z-index: 100;"}
@@ -57,6 +55,9 @@ respect-user-color-scheme: true
 
 ::::
 
+---
+
+{{< include rendering-slides.qmdf >}}
 
 
 ## <img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width=175> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width=150>: more info{#more-information}
