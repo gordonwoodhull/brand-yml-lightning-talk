@@ -1,12 +1,5 @@
 ---
-title: |
-  ![](brand-yml-wide-color.png){.absolute width=559px height=141.407px left=13px top=-425px}
-
-  ::: {.absolute width=901.5px height=138.833px left=3px top=-300px}
-  and dark mode in
-  :::
-  
-  ![](quarto-logo-trademark.svg){.absolute width=528.667px height=135.645px left=188px top=-170px}
+title: '[]{}'
 format:
   revealjs:
     width: 1600
@@ -15,7 +8,7 @@ format:
     scrollable: true
 title-slide-attributes:
   data-background-color: white
-  data-background-image:  _extensions/positconfslides/assets/backgrounds/toc-light.svg
+  data-background-image: title-slide.png
 style: style.scss
 revealjs-plugins:
   - editable
