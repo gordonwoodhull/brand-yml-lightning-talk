@@ -122,3 +122,24 @@
 ::::
 
 
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+``` {.python filename="bokeh-renderings.py"}
+{{< include "9f4b03a/bokeh-renderings.py" >}}
+
+```
+
+:::
+
+::: {.column width="50%"}
+
+![](9f4b03a/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+

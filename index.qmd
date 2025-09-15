@@ -6,10 +6,11 @@ format:
     height: 900
     margin: 0
     scrollable: true
+    include-in-header:
+      text: <link rel="stylesheet" href="style.css">
 title-slide-attributes:
   data-background-color: white
   data-background-image: title-slide.png
-style: style.scss
 revealjs-plugins:
   - editable
 filters:
@@ -24,6 +25,64 @@ demo-style: "border: none;"
 
 ::: {#filename filename=index.qmd}
 :::
+
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+### Survey question
+
+Who prefers **dark mode** on desktop/laptop?
+
+:::
+
+::: {.column width="50%"}
+
+![](dark-only/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+### Survey question
+
+Who prefers **light mode** on desktop/laptop?
+
+:::
+
+::: {.column width="50%"}
+
+![](logo/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%" style="padding-top: 54px"}
+
+### Survey question
+
+Who doesn't care, or switches between light and dark mode?
+
+:::
+
+::: {.column width="50%"}
+
+![](split3.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
+:::
+
+::::
+
+---
 
 {{< include slides.qmdf >}}
 
@@ -45,6 +104,7 @@ respect-user-color-scheme: true
 {{< include "light-dark/_brand.yml" >}}
 
 ```
+
 
 :::
 
@@ -70,7 +130,7 @@ See the talk repo for links!
 :::
 
 ::: {.column}
-{{< qrcode width=500 height=500 https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md >}}
+{{< qrcode https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md id=qr1 >}}
 :::
 
 ::::

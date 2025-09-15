@@ -1,0 +1,23 @@
+div.code-with-filename {
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    width: 800px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.reveal .footer > * {
+	display: none;
+}
+
+.reveal img {
+    margin: 0
+}
+
+.qrcode {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 300px;
+}

@@ -284,9 +284,9 @@
 
 ::: {.column width="50%"}
 
-![](light-dark/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='{{< meta demo-style >}}'}
 :::
 
 ::::
 
+![](light-dark/screenshot.png){.absolute width='{{< meta demo-width >}}' left='{{< meta demo-left >}}' top='{{< meta demo-top >}}' style='margin: 0; {{< meta demo-style >}}'}
 
