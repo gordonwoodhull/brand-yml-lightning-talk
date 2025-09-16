@@ -10,7 +10,7 @@
 <script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
   <meta name="generator" content="quarto-99.9.9">
 
-  <title>quarto-input88019f06131b4048</title>
+  <title>quarto-input86c38e435065ea4c</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-b2afc3f25f65d4b62961034f8d667735.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -188,6 +188,7 @@
       margin-right: 0; 
     }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -205,6 +206,36 @@
 <div id="filename" data-filename="index.qmd">
 
 </div>
+<div class="columns">
+<div class="column" style="padding-top: 54px">
+<h3 id="survey-question">Survey question</h3>
+<p>Who prefers <strong>dark mode</strong> on desktop/laptop?</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="dark-only/screenshot.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="padding-top: 54px">
+<h3 id="survey-question-1">Survey question</h3>
+<p>Who prefers <strong>light mode</strong> on desktop/laptop?</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="logo/screenshot.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="padding-top: 54px">
+<h3 id="survey-question-2">Survey question</h3>
+<p>Who doesn’t care, or switches between light and dark mode?</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="split3.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
+</div></div>
+</section>
+<section class="slide level2">
+
 <div class="columns">
 <div class="column" style="padding-top: 54px">
 <div class="code-with-filename">
@@ -878,8 +909,9 @@
 <span id="cb14-28"><a></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
-<p><img data-src="light-dark/screenshot.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
+
 </div></div>
+<p><img data-src="light-dark/screenshot.png" class="absolute" style="margin: 0; border: none;top: 0px; left: 800px; width: 800px; "></p>
 </section>
 <section class="slide level2">
 
@@ -1099,8 +1131,40 @@
 <p><img data-src="3ae4195/screenshot.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
 </div></div>
 </section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="padding-top: 54px">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>bokeh-renderings.py</strong></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23" data-filename="bokeh-renderings.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a><span class="co">#| renderings: [light, dark]</span></span>
+<span id="cb23-2"><a></a><span class="im">from</span> bokeh.plotting <span class="im">import</span> figure, show</span>
+<span id="cb23-3"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb23-4"><a></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb23-5"><a></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb23-6"><a></a>p <span class="op">=</span> figure(width<span class="op">=</span><span class="dv">300</span>, height<span class="op">=</span><span class="dv">300</span>, toolbar_location<span class="op">=</span><span class="va">None</span>, match_aspect<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-7"><a></a>p.line(r <span class="op">*</span> np.cos(theta), r <span class="op">*</span> np.sin(theta), line_color<span class="op">=</span><span class="st">"blue"</span>)</span>
+<span id="cb23-8"><a></a><span class="co">#p.axis.visible = False; p.grid.visible = False; p.outline_line_color = None</span></span>
+<span id="cb23-9"><a></a></span>
+<span id="cb23-10"><a></a>light_theme()</span>
+<span id="cb23-11"><a></a>show(p)</span>
+<span id="cb23-12"><a></a></span>
+<span id="cb23-13"><a></a><span class="co"># dark_theme()</span></span>
+<span id="cb23-14"><a></a><span class="co"># show(p)</span></span>
+<span id="cb23-15"><a></a></span>
+<span id="cb23-16"><a></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="9f4b03a/screenshot.png" class="absolute" style="border: none;top: 0px; left: 800px; width: 800px; "></p>
+</div></div>
+</section>
 <section id="more-information" class="slide level2">
-<h2><img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width="175"> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width="150"></h2>
+<h2><img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width="300"> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width="250"></h2>
+<div class="qr-space">
+
+</div>
 <div class="columns">
 <div class="column">
 <p>See the talk repo for links!</p>
@@ -1110,16 +1174,19 @@
 (function() {
   var script = document.currentScript;
   var qrcode = script.previousElementSibling;
-  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#000000","colorLight":"#ffffff","height":"500","text":"https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md","width":"500"});
+  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#000000","colorLight":"#ffffff","height":128,"id":"qr1","text":"https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md","width":128});
   script.remove();
 })();
 </script>
     
 </div></div>
+<div class="qr-space">
+
+</div>
 <p><a href="https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md">https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md</a></p>
 </section>
-<section id="links" class="slide level2 scrollable">
-<h2><img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width="175"> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width="150"> links</h2>
+<section id="more-information" class="slide level2 scrollable">
+<h2><img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width="300"> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width="250"></h2>
 <h3 id="brand.yml"><a href="https://posit-dev.github.io/brand-yml/">brand.yml</a></h3>
 <table class="caption-top">
 <thead>
@@ -1176,7 +1243,7 @@
 <p><a href="https://quarto.org/docs/computations/execution-options.html#cell-renderings">Cell <code>renderings</code> documentation</a></p>
 
 
-<script> window._input_file = "---\n" + "title: '[]{}'\n" + "format:\n" + "  revealjs:\n" + "    width: 1600\n" + "    height: 900\n" + "    margin: 0\n" + "    scrollable: true\n" + "title-slide-attributes:\n" + "  data-background-color: white\n" + "  data-background-image: title-slide.png\n" + "style: style.scss\n" + "revealjs-plugins:\n" + "  - editable\n" + "filters:\n" + "  - editable\n" + "format-twoline-top: -10px\n" + "format-left: 800px\n" + "demo-width: 800px\n" + "demo-left: 800px\n" + "demo-top: 0px\n" + "demo-style: \"border: none;\"\n" + "---\n" + "\n" + "::: {#filename filename=index.qmd}\n" + ":::\n" + "\n" + "{{< include slides.qmdf >}}\n" + "\n" + "---\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.absolute width=1053.5px height=63.8333px left=291px top=681.833px style=\"z-index: 100;\"}\n" + "\n" + "```{.yaml style=\"border: none; font-size: 90px; color: red\" code-line-numbers=\"false\"}\n" + "respect-user-color-scheme: true\n" + "```\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\" style=\"padding-top: 54px\"}\n" + "\n" + "``` {.yaml filename=\"_brand.yml\"}\n" + "{{< include \"light-dark/_brand.yml\" >}}\n" + "\n" + "```\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\"}\n" + "\n" + "![](light-dark/screenshot.png){.absolute width='800px' left='800px' top='0px' style='border: none;'}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "---\n" + "\n" + "{{< include rendering-slides.qmdf >}}\n" + "\n" + "\n" + "## <img src=\"https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png\" alt=\"brand.yml\" style=\"vertical-align: middle\" width=175> and dark mode in <img src=\"https://quarto.org/quarto.png\" alt=\"quarto\" style=\"vertical-align: middle\" width=150>{#more-information}\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.column}\n" + "See the talk repo for links!\n" + "\n" + ":::\n" + "\n" + "::: {.column}\n" + "\n" + ":::\n" + "\n" + "::::\n" + "\n" + "[https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md](https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md\n" + ")\n" + "\n" + "{{< include links.md >}}\n" + ""</script>
+<script> window._input_file = "---\n" + "title: '[]{}'\n" + "format:\n" + "  revealjs:\n" + "    width: 1600\n" + "    height: 900\n" + "    margin: 0\n" + "    scrollable: true\n" + "    include-in-header:\n" + "      text: <link rel=\"stylesheet\" href=\"style.css\">\n" + "    code-block-height: \"800px\"\n" + "title-slide-attributes:\n" + "  data-background-color: white\n" + "  data-background-image: title-slide.png\n" + "revealjs-plugins:\n" + "  - editable\n" + "filters:\n" + "  - editable\n" + "format-twoline-top: -10px\n" + "format-left: 800px\n" + "demo-width: 800px\n" + "demo-left: 800px\n" + "demo-top: 0px\n" + "demo-style: \"border: none;\"\n" + "---\n" + "\n" + "::: {#filename filename=index.qmd}\n" + ":::\n" + "\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.column width=\"50%\" style=\"padding-top: 54px\"}\n" + "\n" + "### Survey question\n" + "\n" + "Who prefers **dark mode** on desktop/laptop?\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\"}\n" + "\n" + "![](dark-only/screenshot.png){.absolute width='800px' left='800px' top='0px' style='border: none;'}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "---\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.column width=\"50%\" style=\"padding-top: 54px\"}\n" + "\n" + "### Survey question\n" + "\n" + "Who prefers **light mode** on desktop/laptop?\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\"}\n" + "\n" + "![](logo/screenshot.png){.absolute width='800px' left='800px' top='0px' style='border: none;'}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "---\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.column width=\"50%\" style=\"padding-top: 54px\"}\n" + "\n" + "### Survey question\n" + "\n" + "Who doesn't care, or switches between light and dark mode?\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\"}\n" + "\n" + "![](split3.png){.absolute width='800px' left='800px' top='0px' style='border: none;'}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "---\n" + "\n" + "{{< include slides.qmdf >}}\n" + "\n" + "---\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.absolute width=1053.5px height=63.8333px left=291px top=681.833px style=\"z-index: 100;\"}\n" + "\n" + "```{.yaml style=\"border: none; font-size: 90px; color: red\" code-line-numbers=\"false\"}\n" + "respect-user-color-scheme: true\n" + "```\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\" style=\"padding-top: 54px\"}\n" + "\n" + "``` {.yaml filename=\"_brand.yml\"}\n" + "{{< include \"light-dark/_brand.yml\" >}}\n" + "\n" + "```\n" + "\n" + "\n" + ":::\n" + "\n" + "::: {.column width=\"50%\"}\n" + "\n" + "![](light-dark/screenshot.png){.absolute width='800px' left='800px' top='0px' style='border: none;'}\n" + ":::\n" + "\n" + "::::\n" + "\n" + "---\n" + "\n" + "{{< include rendering-slides.qmdf >}}\n" + "\n" + "\n" + "## <img src=\"https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png\" alt=\"brand.yml\" style=\"vertical-align: middle\" width=300> and dark mode in <img src=\"https://quarto.org/quarto.png\" alt=\"quarto\" style=\"vertical-align: middle\" width=250>{#more-information}\n" + "\n" + "\n" + "::: {.qr-space}\n" + ":::\n" + "\n" + "\n" + ":::: {.columns}\n" + "\n" + "::: {.column}\n" + "See the talk repo for links!\n" + "\n" + "\n" + ":::\n" + "\n" + "::: {.column}\n" + "\n" + ":::\n" + "\n" + "::::\n" + "\n" + "::: {.qr-space}\n" + ":::\n" + "\n" + "[https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md](https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md\n" + ")\n" + "\n" + "---\n" + "\n" + "{{< include links.md >}}\n" + ""</script>
 <script> window._input_filename = '/Users/gordon/docs/brand-yml-lightning-talk/index.qmd'</script>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>to be released later this year; use main branch from Github</p></li></ol></aside></section>
 
