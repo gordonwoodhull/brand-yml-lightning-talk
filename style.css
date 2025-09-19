@@ -15,9 +15,17 @@ div.code-with-filename {
     margin: 0
 }
 
+.qr-space {
+  display: block;
+  height: 200px;
+}
+
 .qrcode {
-  position: absolute;
-  top: 0;
-  right: 50%;
   width: 300px;
+  height: 300px;
+}
+
+.qrcode img {
+  width: 300px;
+  height: 300px;
 }

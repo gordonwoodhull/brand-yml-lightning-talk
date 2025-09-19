@@ -8,6 +8,7 @@ format:
     scrollable: true
     include-in-header:
       text: <link rel="stylesheet" href="style.css">
+    code-block-height: "800px"
 title-slide-attributes:
   data-background-color: white
   data-background-image: title-slide.png
@@ -120,12 +121,18 @@ respect-user-color-scheme: true
 {{< include rendering-slides.qmdf >}}
 
 
-## <img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width=175> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width=150>{#more-information}
+## <img src="https://posit-dev.github.io/brand-yml/logos/wide/brand-yml-wide-color.png" alt="brand.yml" style="vertical-align: middle" width=300> and dark mode in <img src="https://quarto.org/quarto.png" alt="quarto" style="vertical-align: middle" width=250>{#more-information}
+
+
+::: {.qr-space}
+:::
+
 
 :::: {.columns}
 
 ::: {.column}
 See the talk repo for links!
+
 
 :::
 
@@ -135,7 +142,12 @@ See the talk repo for links!
 
 ::::
 
+::: {.qr-space}
+:::
+
 [https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md](https://github.com/gordonwoodhull/brand-yml-lightning-talk/blob/main/links.md
 )
+
+---
 
 {{< include links.md >}}
